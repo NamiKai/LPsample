@@ -1,0 +1,143 @@
+/* ===== リセット ===== */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #07152d;
+}
+
+/* ===== LP本体 ===== */
+.lp {
+  position: relative;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  line-height: 0;
+}
+
+/* 背景画像 */
+.lp-bg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ===== ボタン共通 ===== */
+.cta {
+  position: absolute;
+  display: block;
+  z-index: 10;
+}
+
+.cta img {
+  width: 100%;
+  display: block;
+}
+
+/* ===== ボタン位置 ===== */
+
+/* 上 */
+.cta-01 {
+  top: 10%;
+  left:50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+/* 羊皮紙 */
+.cta-05 {
+  top: 53.5%;
+  left:50%;
+  transform: translateX(-50%);
+  width: 85%;
+}
+
+/* 最下部 */
+.cta-06 {
+  top: 97.5%;
+  left:50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+/* ===== 任意：ホバー演出 ===== */
+.cta:hover {
+  opacity: 0.9;
+}
+
+/* ===== ヘッダー ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: transparent;
+}
+
+/* 中身 */
+.header-inner {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 10px 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===== ヘッダー ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: transparent;
+}
+
+/* ヘッダー内レイアウト */
+.header-inner {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 60px; /* ←高さ基準 */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===== ロゴ ===== */
+.header-logo {
+  height: 80%;
+}
+
+.header-logo img {
+  height: 100%;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* ===== CTAボタン ===== */
+.header-cta {
+  display: block;
+  height: 50%; /* ←ロゴより少し小さくしてバランス取る */
+  
+}
+
+.header-cta img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+/* ホバー（任意） */
+.header-cta:hover {
+  opacity: 0.9;
+}
