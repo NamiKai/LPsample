@@ -14,7 +14,6 @@ body {
 .lp {
   position: relative;
   width: 100%;
-  max-width: 375px;
   margin: 0 auto;
   line-height: 0;
 }
@@ -50,7 +49,7 @@ body {
 
 /* 羊皮紙 */
 .cta-05 {
-  top: 53.5%;
+  top: 52.5%;
   left:50%;
   transform: translateX(-50%);
   width: 85%;
@@ -58,7 +57,7 @@ body {
 
 /* 最下部 */
 .cta-06 {
-  top: 97.5%;
+  top: 97.3%;
   left:50%;
   transform: translateX(-50%);
   width: 90%;
@@ -102,11 +101,10 @@ body {
 
 /* ヘッダー内レイアウト */
 .header-inner {
-  max-width: 375px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: 0 15px;
-  height: 60px; /* ←高さ基準 */
-
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
